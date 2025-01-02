@@ -1,0 +1,136 @@
+
+.main_container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #2e2e2e; 
+  color: #fff;
+  border-radius: 10px; 
+}
+
+h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 50px;
+  color: #f3f3f3; 
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); 
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.searchbar input {
+  padding: 12px;
+  width: 400px;
+  border-radius: 25px;
+  border: 2px solid #444;
+  background-color: #333; 
+  color: #fff;
+  font-size: 16px;
+}
+
+.searchbar button {
+  padding: 12px 20px;
+  width: 180px;
+  margin-left: 10px;
+  background-color: #6a4df5;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.searchbar button:hover {
+  background-color: #433874; 
+}
+
+
+.data_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data_table th, .data_table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #878791;
+}
+
+.data_table th {
+  background-color: #626164; 
+  font-weight: bold;
+  color: #dad7d7;
+  text-transform: uppercase;
+}
+
+.data_table td {
+  background-color: #444;
+  color: #ddd; 
+}
+
+.data_table tr:hover {
+  background-color: #333; 
+  cursor: pointer;
+}
+
+
+.data_table td:hover {
+  background-color: #ffffff53; 
+}
+
+
+.data_table tr, .data_table td {
+  transition: background-color 0.3s ease;
+}
+
+
+.data_table td img {
+  max-width: 120px;
+  max-height: 120px;
+  object-fit: cover;
+  border-radius: 5px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.data_table td img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6); 
+}
+
+.no-data {
+  text-align: center;
+  color: #bbb;
+  font-style: italic;
+}
+
+/* Pagination buttons */
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-buttons button {
+  padding: 12px 25px;
+  background-color: #6a4df5;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin: 0 15px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.pagination-buttons button:hover {
+  background-color: #433874; /* Darker shade for hover */
+}
+
+.pagination-buttons button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
